@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+  <title>Chessboard Game</title>
+</head>
+<body>
+    <section class="main">
+
+        <div class="main__container">
+            <div class="main-image__alert">
+                <a href="https://example1.com" class="image">
+                    <img src="https://img.freepik.com/free-photo/a-picture-of-fireworks-with-a-road-in-the-background_1340-43363.jpg" alt="">
+                </a>
+                <a href="https://example2.com" class="image">
+                    <img src="https://img.freepik.com/free-photo/a-picture-of-fireworks-with-a-road-in-the-background_1340-43363.jpg" alt="">
+                </a>
+                <a href="https://example3.com" class="image">
+                    <img src="https://img.freepik.com/free-photo/a-picture-of-fireworks-with-a-road-in-the-background_1340-43363.jpg" alt="">
+                </a>
+            </div>
+
+
+            <div class="main-image__rotate">
+                <img src="./img/11.jpg" class="girl" alt="">
+                <img src="./img/12.jpg" class="girl" alt="">
+                <img src="./img/13.jpg" class="girl" alt="">
+            </div>
+
+
+            <div class="main-image__cursor">
+              <a href="#" onmouseover="addHref(this)" onmouseout="removeHref(this)">Link 1 (default)</a><br>
+              <a href="#" onmouseover="addHref(this)" onmouseout="removeHref(this)">Link 2 (default)</a><br>
+              <a href="#" onmouseover="addHref(this)" onmouseout="removeHref(this)">Link 3 (default)</a>
+            </div>
+            </div>
+
+
+            <form id="myForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" maxlength="50"><br><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" maxlength="50"><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age"><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+
+
+            <div id="demo"></div>
+        </div>
+
+      <section class="main">
+        <div class="main__container">
+          <button class="main-btn" >Update</button>
+        </div>
+      </section>
+
+      <script src="index.js"></script>
+    </section>
+
+    <br><br><br>
+
+    <div class="container">
+      <h1>Chessboard Game</h1>
+      <div class="board" id="board"></div>
+      <div class="buttons">
+        <button class="play-again">Play Again</button>
+        <button class="set-pos">Set Position</button>
+        <button class="flip-board">Flip Board</button>
+      </div>
+      <div id="move-history" class="move-history"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/chessboard-1.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

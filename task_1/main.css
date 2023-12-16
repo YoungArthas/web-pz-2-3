@@ -1,0 +1,84 @@
+.main{
+    padding-top: 100px;
+}
+.main__container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.image{
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: 30px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.main-image__alert{
+    display: flex;
+}
+.main-image__rotate{
+    margin-top: 80px;
+    display: flex;
+}
+.main-image__rotate img{
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-right: 30px;
+}
+
+.main-image__cursor {
+    margin-top: 80px;
+    display: flex;
+}
+
+.main-image__cursor a{
+    margin-right: 30px;
+}
+
+.main-image__cursor a:last-child {
+    margin-right: 0;
+}
+
+input.invalid {
+    border: 1px solid red;
+}
+
+#myForm {
+    margin-top: 80px;
+}
+
+.link-container {
+  margin: 10px;
+}
+
+.link-container a {
+  text-decoration: none;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    border: 2px solid black;
+}
+
+input#age {
+    width: 50px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background: black;
+    color: white;
+}
